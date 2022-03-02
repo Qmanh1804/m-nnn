@@ -1,0 +1,155 @@
+html {
+    font-family: 'Nunito', sans-serif;
+}
+body {
+    margin: 0;
+}
+/*  */
+.header {
+    width: 100%;
+    background-color: rgb(60, 205, 249);
+    display: flex;
+    position: fixed;
+}
+.header-logo {
+    width: 100px;
+    height: 80px;
+    margin: 0 50px;
+}
+.header-navbar {
+    display: flex;
+    margin-left: 280px;
+    margin-right: 100px;
+}
+.navbar {
+    margin: auto;
+    display: flex;
+}
+.navbar a {
+    text-decoration: none;
+    margin: 0 0 0 30px;
+    font-size: 1.5rem;
+    color: black;
+    cursor: pointer;
+}
+.navbar a:hover {
+    color: white;
+}
+/*  */
+.information {
+    display: flex;
+    background-color: rgb(216, 213, 213);
+}
+.information-img img{
+    width: 200px;
+    border-radius: 50%;
+    margin: 130px 100px 50px 100px;
+}
+.information-text {
+    margin: 100px 0 0 0;
+}
+.information-text1 {
+    color: coral;
+    font-size: 2.5rem;
+}
+.information-text2 {
+    color: #333;
+    font-size: 1rem;
+}
+/* Working */
+.Working {
+    display: flex;
+    color: aliceblue;
+}
+.Workingphilosophy {
+    color: coral;
+    width: 50%;
+    font-size: 2.5rem;
+}
+.Workingphilosophy h3 {
+    text-align: center;
+}
+.Workingphilosophy li {
+   margin: 10px 0 10px 200px;
+   color: #333;
+   font-size: 1rem;
+}
+.Target {
+    width: 50%;
+    color: coral;
+    font-size: 2.5rem;
+}
+.Target h3 {
+    text-align: center;
+}
+.Target li {
+   margin: 10px 0;
+   color: #333;
+   font-size: 1rem;
+}
+/* skill */
+.skill {
+    background-color: rgb(216, 213, 213);
+}
+.skill h3 {
+    color: coral;
+    font-size: 2.5rem;
+    text-align: center;
+}
+.skills {
+    display: flex;
+}
+.columm1 {
+    width: 50%;
+}
+.columm1 h3 {
+    color: black;
+    font-size: 1.2rem;
+    text-align: justify;
+    margin-left: 50px;
+}
+.columm2 h3{
+    color: black;
+    font-size: 1.2rem;
+    text-align: justify;
+    margin-left: 220px;
+}
+.columm2 li {
+    list-style: none;
+    margin-left: 250px;
+}
+/* Curricaumvitae */
+
+.Curricaumvitae h3 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: coral;
+}
+.Curricaumvitae-aboutme {
+    width: 50%;
+}
+.Curricaumvitae-aboutme li{
+    list-style: none;
+    margin: 10px 0 10px 200px;
+    font-size: 1rem;
+}
+.Curricaumvitae-aboutme li i {
+    color: coral;
+    margin-right: 10px;
+}
+.Curricaumvitae-flow {
+    width: 50%;
+}
+.Curricaumvitae-flow li {
+    list-style: none;
+    margin: 10px 0;
+}
+.icon {
+    text-decoration: none;
+    color: #333;
+    font-size: 2rem;
+    margin-left: 250px;
+}
+.icon:hover {
+    color: coral;
+}
